@@ -1,0 +1,22 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and backup files
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Ignore Excel autosave files
+*.xls*~
+*.xlsx*~
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS folder attributes
+__MACOSX/
+
+# Ignore node_modules if you ever use JS tooling
+node_modules/
